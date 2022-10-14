@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "292292990380",
+    "firebase_url": "https://console-finder-gis-f12bd-default-rtdb.firebaseio.com",
+    "project_id": "console-finder-gis-f12bd",
+    "storage_bucket": "console-finder-gis-f12bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292292990380:android:9383b45a48456fa01fd609",
+        "android_client_info": {
+          "package_name": "com.example.consolefindergis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292292990380-07lghp68fgilt0det091a16p07vtc2tr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkFBvzuDVNqTyv3kRur0ij3D0eqkvKH7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292292990380-07lghp68fgilt0det091a16p07vtc2tr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

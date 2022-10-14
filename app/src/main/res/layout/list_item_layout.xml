@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="#f3f3f3"
+    >
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:layoutDirection="rtl"
+    app:layoutDescription="@xml/list_item_layout_scene">
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:id="@+id/title_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title" />
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:id="@+id/sellerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Name" />
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:id="@+id/sellerNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone Number" />
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City Name" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="מחיר"
+        android:textDirection="rtl"
+        android:layoutDirection="rtl"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:textDirection="rtl"
+        android:id="@+id/itemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item Price" />
+
+    <ImageView
+        android:layout_marginRight="6dp"
+        android:layoutDirection="rtl"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="219dp"
+        android:visibility="gone"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
